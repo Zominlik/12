@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__button {
+    color: #ffffff;
+    width: 210px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgb(95, 93, 93);
+  }
+
+  &__button {
+    img {
+      margin-left: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+}
+
+.header .navbar {
+  &__items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+.header .navbar {
+  &__items a {
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    font-weight: 700;
+  }
+}
